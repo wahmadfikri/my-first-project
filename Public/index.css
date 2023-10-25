@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav-primary {
+  background-color: #242c2e;
+  border-radius: 20px;
+  padding: 20px 24px 20px 24px;
+  top: 24px;
+  left: 24px;
+  height: 96px;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+.navbar {
+  margin-left: auto;
+  list-style: none;
+  display: flex;
+}
+
+span {
+  color: white;
+  padding-left: 10px;
+}
+
+.login {
+  background-color: #f4ce47;
+  border-radius: 16px;
+  height: 56px;
+  width: 101px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+#signup {
+}
